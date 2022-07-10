@@ -1,0 +1,100 @@
+body {
+    background: rgb(219, 212, 212);
+    
+}
+
+.intro {
+    width: 100%;
+    padding-left: 150px;
+}
+
+#logomarca {
+    position: absolute;
+    display: inline-block;
+    top: 17px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 35px;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: 150px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#ff0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.registro {
+    padding: 10px 25px;
+    border: #ff0000 solid 2px;
+    border-radius: 30px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;  
+    text-transform: uppercase;
+    color:#e00303;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.principal {
+    position: relative;
+    display: block;
+    top: 100px;
+    left: 160px;
+}  
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #ff0000;
+    position: relative;
+    top: 115px;
+    left: 160px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    position: relative;
+    top: 140px;
+    left: 160px;
+    width: 16%;
+    border-radius: 30px;
+    border: none;
+}
+
+.enviar {
+    width: 10%;
+    padding: 15px;
+    background: #e00303;
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    top: 135px;
+    left: 160px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #aa0202;
+    transform: scale(1.1);
+}
+.personagem {
+    position: relative;
+    left: 800px;
+    top: -250px;
+}
