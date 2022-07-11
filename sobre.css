@@ -1,0 +1,110 @@
+header {
+    background: rgb(0, 0, 0);
+    padding: 20px 0;
+    position: fixed;
+    z-index: 1  ;
+}
+.intro {
+    padding: 0px 50px;
+    position: relative;
+    top: 10px;
+}
+
+#logomarca {
+    position: relative;
+    top: -18px;
+    right: 10px;
+}
+nav {
+    position: relative;
+    top: -55px;
+    left: 570px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a {
+    padding: 15px;
+    text-transform: uppercase;
+    color:#ff0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registro {
+    border: #ff0000 2px solid;
+    border-radius: 30px;
+}
+body{
+    background: #e8e5e5;
+}
+main {
+    position: relative;
+    top: 200px;
+    margin: 0 0 0 100px;
+}
+.titulo-inicial {
+    font-size: 100px;
+    text-transform: uppercase;
+    color:#000000;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Teko', sans-serif; 
+    font-style: italic;
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+
+h2{
+    position: relative;
+    top: 100px;
+    left: 250px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+p {
+    position: relative;
+    top: 140px;
+    left: 250px;
+    font-size: 18px;
+    opacity: 60%;
+    word-spacing: 10px;
+    line-height:25px;
+}
+
+.video {
+    position: relative;
+    top: -80px;
+    left: 700px;
+    width: 560px;
+}
+
+.botao-input {
+    position: relative;
+    right: 400px;
+    top: -50px;
+    width: 40%;
+	padding: 15px 0;
+	background:#ff0000;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: solid 1px black;
+	border-radius: 5px;
+    box-sizing: border-box;   
+	transition: 1s ;
+	cursor: pointer;
+    
+}
+
+.botao-input:hover{
+    background: #000000;
+    transition: linear;
+}

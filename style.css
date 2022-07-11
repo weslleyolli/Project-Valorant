@@ -1,3 +1,4 @@
+
 body {
     background: rgb(219, 212, 212);
     
@@ -6,6 +7,9 @@ body {
 .intro {
     width: 100%;
     padding-left: 150px;
+}
+.imagem-nome {
+    display: inline-block;
 }
 
 #logomarca {
@@ -20,10 +24,12 @@ nav li {
 }
 
 nav {
-    position: absolute;
-    top: 40px;
-    right: 150px;
+    position:relative;
+    top: -65px;
+    left: 500px;
+    width: 570px;
 }
+
 
 nav a {
     text-transform: uppercase;
@@ -97,4 +103,5 @@ p {
     position: relative;
     left: 800px;
     top: -250px;
+    display: inline-block;
 }
